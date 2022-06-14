@@ -22,10 +22,7 @@ public class testClass {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to(baseURL);
-		System.out.println (driver.getTitle());
-		
-		
-		
+		System.out.println (driver.getTitle());		
 		System.out.println ("Test Completed");
 
 	}
